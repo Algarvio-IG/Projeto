@@ -26,6 +26,7 @@ A pessoa irá ter um mapa da cidade em que habita, para poder observar a locali�
 **Passo a passo:**
 1. Estar autenticado no sistema.
 2. Localizar a aula que pretende.
+
 **Pós-condições:**
 - Após precionar a aula que pretende pode saber as caracteristicas da aula e também pode inscrever-se caso queira frequentar.
 
