@@ -18,35 +18,35 @@ Com o problema apresentado, nós decidimos criar uma app onde qualquer pessoa co
 Outros produtos similares: strava, BikeTracker, Trailforks.\
 ## Casos de utilização:
 
-### Localização das aulas
+### Localizar a categoria que pretende
 **Descrição:** \
-A pessoa irá ter um mapa da cidade em que habita, para poder observar a localição das aulas mais próximas, ou espalhadas pela cidade, para assim poder escolher a aula que pretende.
+É apresentada ao User uma lista de categorias onde pode escolher a que pretende, podendo depois aceder as aulas dessa categoria.
 
 **Pré-condições:**
 - Estar logado.
-- Permitir saber a sua localização.
+- Permitir saber a sua localização através do código postal.
 
 **Passo a passo:**
 1. Estar autenticado no sistema.
-2. Localizar a aula que pretende.
+2. Escolher a categoria que pretende.
 
 **Pós-condições:**
-- Após precionar a aula que pretende pode saber as caracteristicas da aula e também pode inscrever-se caso queira frequentar.
+- Após selecionar a categoria que pretende pode saber quais as aulas que existem referentes àquela categoria.
 
-### Autenticação no sistema
+### Escolha da Aula
 **Descrição:** \
-O sistema pede os dados de identificação do utilizador como o e-mail e passwoard para entrar na app.
+Após ter escolhido a categoria ao user é lhe apresentada uma lista de aulas referentes a essa categoria podendo escolher a aula que pretende realizar.
 
 **Pré-condições:**
-- Estarem registados no sistema.
+- Terem escolhido uma categoria.
 
 **Passo a passo:**
-1. Entrar na app
-2. Colocar o username e passwoard caso tenham efetuado o registo previamente.
-3. Clicar em Login
+1. Escolher uma categoria
+2. É apresentada uma lista de Aulas
+3. Escolhe a aula
 
 **Pós-condições:**
-- É efetuada a autenticação e podem utilizar o sistema.
+- É lhe apresentado uma lista de horarios e localização daquela aula que pretende frequentar.
 
 ### Inscrição nas aulas
 **Descrição:** \
@@ -58,7 +58,7 @@ Após terem escolhido a aula que pretendem no mapa e terem lido as suas especifi
 **Passo a passo:**
 1. Ver se a aula está cheia caso não pode prosseguir caso contrário terá de escolher outra aula ou outro horário.
 2. Clicar em inscrever-se.
-3. Pagamento de 50% do custo da aula.
+3. Pagamento da taxa a escolher pelo Personal Trainer do custo da aula.
 4. Colocar os dados de pagamento
 5. Pagar
 6. Confirmar inscrição
