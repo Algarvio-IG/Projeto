@@ -41,9 +41,9 @@ Após ter escolhido a categoria ao user é lhe apresentada uma lista de aulas re
 - Terem escolhido uma categoria.
 
 **Passo a passo:**
-1. Escolher uma categoria
-2. É apresentada uma lista de Aulas
-3. Escolhe a aula
+1. Escolher uma categoria.
+2. É apresentada uma lista de Aulas.
+3. Escolhe a aula.
 
 **Pós-condições:**
 - É lhe apresentado uma lista de horarios e localização daquela aula que pretende frequentar.
