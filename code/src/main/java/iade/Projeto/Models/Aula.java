@@ -28,8 +28,8 @@ public class Aula {
 
     @ManyToOne @JoinColumn(name="Au_Niv_id")@JsonIgnoreProperties({"aula"})private Nivel nivel;
     @ManyToOne @JoinColumn(name = "Au_Cat_ID")@JsonIgnoreProperties({"aula"})private Categoria categoria ;
-    @ManyToOne @JoinColumn(name= "Au_Pt_id")@JsonIgnoreProperties({"aula"})private PersonalTrainer personaltrainer;
     @OneToMany @JoinColumn(name="mar_Au_id")@JsonIgnoreProperties({"aula"})private List<Marcacao> marcacao;
+    @OneToMany @JoinColumn(name="qual_Au_id")@JsonIgnoreProperties({"aula"})private List<Qualificado> qualificado;
 
     public Aula() {} 
     
@@ -55,16 +55,12 @@ public class Aula {
         return categoria;
     }
 
-    public PersonalTrainer getPersonalTrainer(){
-        return personaltrainer;
+    public List<Marcacao> getMarcacao(){
+        return marcacao;
     }
-
-    public void setPersonalTrainer(PersonalTrainer personaltrainer){
-        this.personaltrainer = personaltrainer;
+    public List<Qualificado> getQualificado(){
+        return qualificado;
     }
-     public List<Marcacao> getMarcacao(){
-         return marcacao;
-     }
     
 
 }

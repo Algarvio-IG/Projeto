@@ -6,34 +6,36 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
-import java.util.List;
+import javax.persistence.JoinColumn;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
+
 
 
 @Entity
-@Table(name = "Categoria")
+@Table (name="Nivel")
 
-public class Categoria {
+public class Nivel {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    @Column(name="Cat_ID")
+    
+    @Column(name="Niv_ID")
     private int id;
-
-    @Column(name="Cat_Nome")
+    
+    @Column(name="Niv_Nome")
     private String nome;
-
-    @Column(name = "Cat_descricao")
+    
+    @Column(name = "Niv_descricao")
     private String descricao;
 
     @OneToMany
-    @JoinColumn(name="Au_Cat_ID")
-    @JsonIgnoreProperties({"categoria"})
+    @JoinColumn(name="Niv_ID")
+    @JsonIgnoreProperties({"Nivel"})
     private List <Aula> aula;
     
-    public Categoria() {} 
-    
+    public Nivel(){}
+
     public int getId() {
         return id;
     }
@@ -42,16 +44,11 @@ public class Categoria {
         return nome;
     }
 
-    public String getDescricao(){
+    public String getDescricao() {
         return descricao;
     }
-    
-    public List<Aula> getAula() {
-        return aula;
-    }
-    
-   
 
 
-    
+
+
 }

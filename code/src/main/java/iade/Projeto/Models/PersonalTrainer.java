@@ -1,15 +1,12 @@
 package iade.Projeto.Models;
 
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import java.util.List;
 
 @Entity
 @Table(name = "Personal_Trainer")
@@ -28,11 +25,7 @@ public class PersonalTrainer {
 
     @Column(name = "pt_sexo")
     private char sexo;
-
-    @ManyToMany
-    @JoinColumn(name = "Au_pt_ID")
-    @JsonIgnoreProperties({ "PersonalTrainer" })
-    private List<Aula> aula;
+    
 
     public PersonalTrainer() {}
 
@@ -51,6 +44,5 @@ public class PersonalTrainer {
     public char getSexo() {
         return sexo;
     }
-
     
 }
