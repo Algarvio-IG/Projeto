@@ -33,7 +33,7 @@ Outros produtos similares: strava, BikeTracker, Trailforks.\
 **Pós-condições:**
 - Após selecionar a categoria que pretende pode saber quais as aulas que existem referentes àquela categoria.
 
-### Escolha da Aula
+### Localizar a da Aula que quer
 **Descrição:** \
 Após ter escolhido a categoria ao user é lhe apresentada uma lista de aulas referentes a essa categoria podendo escolher a aula que pretende realizar.
 
@@ -43,28 +43,24 @@ Após ter escolhido a categoria ao user é lhe apresentada uma lista de aulas re
 **Passo a passo:**
 1. Escolher uma categoria.
 2. É apresentada uma lista de Aulas.
-3. Escolhe a aula.
 
 **Pós-condições:**
 - É lhe apresentado uma lista de horarios e localização daquela aula que pretende frequentar.
 
-### Inscrição nas aulas
+### Ver a Aula que pretende
 **Descrição:** \
-Após terem escolhido a aula que pretendem no mapa e terem lido as suas especificações os utilizadores poderão efetuar a inscrição nas aulas.
+Após ter sido apresentado a pessoa pode escolher a aula que pretende.
 
 **Pré-condições:**
-- Ter escolhido a aula que pretende e a que horas pretende.
+- Ter escolhido a aula que pretende.
 
 **Passo a passo:**
-1. Ver se a aula está cheia caso não pode prosseguir caso contrário terá de escolher outra aula ou outro horário.
-2. Clicar em inscrever-se.
-3. Pagamento da taxa a escolher pelo Personal Trainer do custo da aula.
-4. Colocar os dados de pagamento
-5. Pagar
-6. Confirmar inscrição
+1.Escolher a aula 
+2.É apresentada a aula e as suas especificações
+3.Proceder à marcação
 
 **Pós-condições:**
-- Inscrição é guardada
+- Marcação é guardada
 
 
 
