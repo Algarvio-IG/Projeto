@@ -23,11 +23,10 @@ Outros produtos similares: strava, BikeTracker, Trailforks.\
 É apresentada ao User uma lista de categorias onde pode escolher a que pretende, podendo depois aceder as aulas dessa categoria.
 
 **Pré-condições:**
-- Estar logado.
-- Permitir saber a sua localização através do código postal.
+- N/A
 
 **Passo a passo:**
-1. Estar autenticado no sistema.
+1. Estar no sistema.
 2. Escolher a categoria que pretende.
 
 **Pós-condições:**
@@ -48,23 +47,19 @@ Após ter escolhido a categoria ao user é lhe apresentada uma lista de aulas re
 **Pós-condições:**
 - É lhe apresentado uma lista de horarios e localização daquela aula que pretende frequentar.
 
-### Inscrição nas aulas
+### Ver as marcações
 **Descrição:** \
-Após terem escolhido a aula que pretendem no mapa e terem lido as suas especificações os utilizadores poderão efetuar a inscrição nas aulas.
+O utilizador poderá ver as suas marcações e isto inclui a aula, o dia de realização, o local, e quem ira dar o treino, e também as espicificações da aula como a categoria e o nivel correspondente.
 
 **Pré-condições:**
-- Ter escolhido a aula que pretende e a que horas pretende.
+- N/a
 
 **Passo a passo:**
-1. Ver se a aula está cheia caso não pode prosseguir caso contrário terá de escolher outra aula ou outro horário.
-2. Clicar em inscrever-se.
-3. Pagamento da taxa a escolher pelo Personal Trainer do custo da aula.
-4. Colocar os dados de pagamento
-5. Pagar
-6. Confirmar inscrição
+1. Estar no Sistema
+2. Ter feito a inscrição previamente
 
 **Pós-condições:**
-- Inscrição é guardada
+- É mostrado a sua marcação.
 
 
 
